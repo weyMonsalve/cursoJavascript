@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validación de Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2>Formulario de Registro</h2>
+
+    <form id="formulario">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre">
+        <span class="error" id="error-nombre"></span>
+
+        <label for="correo">Correo</label>
+        <input type="email" id="correo">
+        <span class="error" id="error-correo"></span>
+
+        <label for="edad">Edad</label>
+        <input type="number" id="edad">
+        <span class="error" id="error-edad"></span>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script src="../dom/script.js"></script>
+
+</body>
+
+</html>
