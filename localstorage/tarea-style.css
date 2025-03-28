@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+h2 {
+    color: #333;
+}
+
+input {
+    padding: 8px;
+    width: 60%;
+    margin: 10px 0;
+}
+
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+
+/* Botón de eliminar */
+
+button.eliminar {
+    background-color: red;
+}
+
+button.eliminar:hover {
+    background-color: darkred;
+}
+
+
+/* Botón de editar */
+
+button.editar {
+    background-color: orange;
+}
+
+button.editar:hover {
+    background-color: darkorange;
+}
